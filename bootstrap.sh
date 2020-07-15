@@ -45,6 +45,11 @@ case $copy_zshrc in [yY][eE][sS]|[yY])
   mv ~/.zshrc ~/.zshrc.pre_bootstrap;
   echo Copying .zshrc...
   cp -f .zshrc ~/.zshrc;
+
+  echo Moving .p10k.zsh to .p10k.zsh.pre_bootstrap...
+  mv ~/.p10k.zsh ~/.p10k.zsh.pre_bootstrap;
+  echo Copying .p10k.zsh...
+  cp -f .p10k.zsh ~/.p10k.zsh;
   ;;
 esac
 
@@ -56,4 +61,4 @@ case $copy_vimrc in [yY][eE][sS]|[yY])
   ;;
 esac
 
-echo Done. Run "source ~/.zshrc" or open a new terminal.
+echo Done. Open a new terminal.

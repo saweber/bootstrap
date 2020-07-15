@@ -25,6 +25,7 @@ brew 'zsh'
 
 # zsh theme
 brew 'starship'
+brew 'romkatv/powerlevel10k/powerlevel10k'
 
 # zsh plugins
 brew 'zsh-autosuggestions'
