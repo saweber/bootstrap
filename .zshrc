@@ -11,7 +11,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # For zsh-nvm - faster zsh loading
 export NVM_AUTO_USE=true
-export NVM_COMPLETION=true -- too slow
+#export NVM_COMPLETION=true # too slow
 
 # For pasting into zsh - disable autosuggest for large pastes
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
